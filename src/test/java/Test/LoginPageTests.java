@@ -18,12 +18,6 @@ public class LoginPageTests {
         loginPage.verifyLoginScreenVisibility();
         loginPage.enterPhoneNumber();
         loginPage.clickProceedBtn();
-//        loginPage.clickOnSkipBtn();
-//        loginPage.verifyHomePageVisibility();
-//        Thread.sleep(5000);
-//        Helper.scrollPageDown();
-//        Thread.sleep(5000);
-//        Helper.scrollElementFromTopToBottom(By.id("divider"));
-//        Thread.sleep(5000);
+        System.out.println("Hello");
     }
 }
