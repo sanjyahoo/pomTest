@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Paytm APP Regression Suite">
+
+    <test name="Demotest">
+        <classes>
+            <class name="Test.LoginPageTests">
+            </class>
+        </classes>
+    </test>
+</suite>
